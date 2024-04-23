@@ -1,0 +1,387 @@
+@import url('https://fonts.cdnfonts.com/css/chava');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+ }
+
+ section {
+    padding: 0 calc(10.6vw - 16px);
+    margin-bottom: calc(11vw + 18.4px);
+ }
+
+/* - metacal
+border-containt - razmer o'zgaradi
+border-box - razmer o'zgarmaydi
+*/
+
+.logo {
+    padding-top: 38px;
+    padding-bottom: calc(6.3vw + 4.3px);
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-bottom: calc(3.1vw + 36.3px);
+}
+.title {
+    font-size: calc(0.55vw + 14px);
+}
+
+.value {
+    font-size: calc(0.55vw + 14px);
+    font-weight: 700;
+
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Chava";
+    margin-bottom: 40px;
+}
+.section1_text {
+    width: calc(66.6vw + 77.6px);
+    font-size: calc(1vw + 14.2px);
+    margin-bottom: 20px;
+}
+.cta {
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+.cta button {
+    padding: 20px 0;
+    width: 328px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #6e3aba;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.purple {
+    background-color: #6e3aba;
+    color: white;
+}
+.white {
+    background-color: white;
+    color: #6e3aba
+}
+
+/* section 2 start */
+
+
+
+
+.section_2 h2 {
+    max-width: calc(48.729vw + 145.2px);
+    font-weight: 500;
+    font-size: 2.651vw + 24.05px;
+
+}
+.section2_card img {
+    width: calc(4.199vw + 184.2px);
+}
+
+.section2_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: space-between;
+    
+}
+.section2_card {
+    width: calc(13.48vw + 277.4px);
+}
+
+.section2_wrapper.top {
+    margin-bottom: 52px;
+}
+
+.section2_card h3 {
+    font-size: calc(0.994vw + 14.2px);
+    font-weight: 600;
+    margin: 10px 0 calc(1.1vw + 5.8px);
+}
+
+.section2_card p {
+    font-size: calc(0.994vw + 14.2px);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media(max-width = 1170px) {
+    .section2_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+/* section 2 end */
+
+
+
+/* section 3 */
+
+.saleLebl {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(1.989vw + 26.541px);
+    font-family: "TT Hoves";
+    color: #FFFFFF;
+    text-transform: uppercase;
+    /* width: calc(38.232vw + 186.63px); */
+}
+.saleTime {
+    width: 100%;
+    background: #6E3ABA;
+    padding-top: calc(4.4198vw + 23.425px);
+    margin-bottom: calc(11vw + 18.4px);
+}
+.timeInfo {
+    display: flex;
+    padding-top: calc(4.088vw + 4.669px);
+    padding-left: calc(15.469vw - 34.01px);
+    padding-right: calc(18.122vw - 38.956px);
+    gap: 0 calc(6.077vw + 7.21px);
+    
+}
+
+.timeValue {
+    font-weight: 400;
+    font-size: calc(12.597vw + 12.76px);
+    font-family: "Chava";
+    color: #2F1D4E;
+
+}
+.timeTitle {
+    font-weight: 500;
+    font-size: calc(1.878vw + 2.96px);
+    color: #2F1D4E;
+    text-transform: uppercase;
+}
+
+.saleButton {
+    margin-left: calc(53.149vw - 175.3px);
+    margin-top: calc(3.978vw + 6.083px);
+    margin-bottom: calc(5.193vw + 21.52px);
+    padding: 20px auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 328px;
+    font-size: 18px;
+    font-family: "TT Hoves";
+    height: 61px;
+    color: #6E3ABA;
+    cursor: pointer;
+
+}
+
+.timeData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* section 5 */
+
+.p-section5 {
+    
+    font-size: calc(0.994vw + 14.2px);
+}
+
+
+.description_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px 120px;
+  
+
+
+}
+
+.description_card {
+    display: flex;
+    flex-direction: column;
+    width: calc(7.956vw + 298.1px);
+    gap: calc(1.105vw + 5.86px) 0;
+}
+.section5_flex1 {
+    display: flex;
+    flex-direction: column;
+    gap: calc(2.431vw + 20.88px) 0;
+}
+
+/* section 8 */
+
+.section8 h2 {
+    /* font-size: calc(2.65vw + 24.05px); */
+    width: calc(44.31vw + 161.8px);
+    margin-bottom: calc(2.21vw + 11.71px);
+}
+
+.section8 p {
+    width: calc(60.552vw + 100.9px);
+    font-size: calc(0.994vw + 14.2px);
+    margin-bottom: calc(1.77vw + 13.37px);
+}
+
+.section8 img {
+    width: 100%;
+
+}
+    
+
+
+/* section 9 */
+
+.section9_wrapper {
+    display: flex;
+}
+
+.section9_img {
+    width: 50%;
+
+}
+
+.section9_img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.section9_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px 0;
+   
+    
+}
+.section9_info p{
+    font-size: calc(0.33vw + 16.7px);
+   
+}
+
+@media (max-width:968px) {
+    .section9_wrapper {
+        flex-direction: column;
+    }
+    .section9_img, .section9_info {
+        width: 100%;
+    }
+}
+
+/* section 12 */
+.section12_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 0 97px;
+
+}
+
+.section12 h2 {
+    /* font-size: calc(2.65vw + 24.05px); */
+    width: calc(44.31vw + 161.8px);
+    margin-bottom: calc(5.08vw + 14.94px);
+}
+
+.section12 img {
+    margin-bottom: calc(2.2vw + 11.71px);
+}
+
+.section12 .p1 {
+    text-transform: uppercase;
+    width: calc(10.829vw + 287.4px);
+    font-weight: 600;
+    font-size: calc(0.552vw + 19.93px);
+}
+
+.section12 .p2 {
+    font-weight: 700;
+    font-size: calc(2.652vw + 24.05px);
+}
+
+.section12 .p3 {
+    font-weight: 400;
+    font-size: calc(0.552vw + 13.9px);
+}
+
+.section12 .p4 {
+    margin-bottom: calc(1.105vw + 25.85px);
+}
+
+@media  (max-width: 1141px) {
+    .section12_wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .section12 .p1 {
+        margin-bottom: 40px;
+    }    
+
+}
+
+
+/* section 13 */
+
+.section13 h2 {
+    /* font-size: calc(2.65vw + 24.05px); */
+    width: calc(58.23vw + 109.62px);
+    margin-bottom: 20px;
+}
+
+.section13 p {
+    width: calc(46vw + 153.96px);
+    font-size: calc(0.994vw + 14.2px);
+    margin-bottom: calc(0.44vw + 18.3px);
+
+}
+
+.section13 img {
+    width: 100%;
+}
+
+
+/* FOR ALL */
+
+p {
+    line-height: 140%;
+    font-weight: 400;
+
+}
+
+h2 {
+    font-size: calc(2.65vw + 24px);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: calc(5.524vw + 19.28px);
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: calc(0.994vw + 14.2px);
+}
+
+
+h6 {
+    color: #6E3ABA;
+    font-size: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
