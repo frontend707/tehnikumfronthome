@@ -215,7 +215,7 @@ h1 {
     width: calc(7.956vw + 298.1px);
     gap: calc(1.105vw + 5.86px) 0;
 }
-.section5_flex1 {
+.section5_flex1 ddede{
     display: flex;
     flex-direction: column;
     gap: calc(2.431vw + 20.88px) 0;
