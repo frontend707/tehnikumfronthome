@@ -201,7 +201,7 @@ h1 {
 
 .description_wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px 120px;
   
