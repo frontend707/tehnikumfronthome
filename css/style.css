@@ -190,6 +190,83 @@ h1 {
     align-items: center;
 }
 
+/* section 4 */
+
+.legend_info {
+    display: flex;
+    gap: 20px 51px;
+    justify-content: space-between;
+    
+    /* flex-wrap: wrap; */
+}
+
+.legend_img {
+    width: calc(7.73vw + 300px);
+    height: calc(10.83vw + 423px);
+}
+
+
+.legend_text h3 {
+    font-size: calc(1.1vw + 26.85px);
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: calc(1.1vw + 5.9px);
+}
+
+.legends_subtitle {
+    font-size: calc(1vw + 14.2px);
+    margin-bottom: calc(5.52vw + 19.28px);
+}
+
+.legend_success {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "smile cup"
+                         "bag keyboard";
+    gap: calc(1.1vw + 25.85px) calc(8.84vw - 23.15px);
+
+}
+
+.legend_card {
+    height: calc(1.547vw + 84.19px);
+}
+
+.legend_card.smile {
+    grid-area: smile;
+}
+.legend_card.cup {
+    grid-area: cup;
+}
+.legend_card.bag {
+    grid-area: bag;
+}
+.legend_card.keyboard {
+    grid-area: keyboard;
+}
+
+.legend_card p{
+    font-size: calc(0.552vw + 13.9px);
+}
+
+@media (max-width:1150px) {
+
+    .legend_info {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .legend_success {
+        grid-template-areas: "smile keyboard"
+                             "cup bag";
+    }
+
+    .legend_img img {
+        width: 100%;
+    }
+
+}
+
 
 /* section 5 */
 
@@ -220,6 +297,74 @@ h1 {
     flex-direction: column;
     gap: calc(2.431vw + 20.88px) 0;
 }
+
+/* section 7 */
+.diploma_success {
+    display: grid;
+    grid-template-columns: 430px 514px 64px;
+    grid-template-rows: 150px 150px;
+    grid-template-areas: "diploma_img diploma_subject diploma_subject"
+                         "diploma_img diploma_p xxx";
+    grid-gap: 0 19px;
+
+}
+
+
+
+.diploma_subject h2 {
+    margin-bottom: 0;
+}
+
+
+.diploma_p p {
+    font-size: calc(0.994vw + 14.2px);
+}
+
+
+.diploma_subject {
+    grid-area: diploma_subject;
+}
+
+.diploma_img {
+    grid-area: diploma_img;
+}
+
+.diploma_p {
+    grid-area: diploma_p;
+}
+
+
+@media (max-width:890px) {
+    .diploma_success {
+        grid-template-columns: 430px 1fr;
+        grid-template-rows: 120px 300px 75px;
+        grid-template-areas: "diploma_subject diploma_subject"
+                             "diploma_img xxxxx"
+                             "diploma_p diploma_p";
+        grid-gap: 20px 0;
+    }
+    
+    .diploma_img img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:495px) {
+    .diploma_success {
+        grid-template-columns: calc(85vw + 9.25px);
+        grid-template-rows: 120px calc(58.33vw + 11.25px) 75px;
+        grid-template-areas: "diploma_subject"
+                             "diploma_img"
+                             "diploma_p";
+      
+    }
+
+}
+
+
+
+
 
 /* section 8 */
 
@@ -332,7 +477,10 @@ h1 {
     }
     .section12 .p1 {
         margin-bottom: 40px;
-    }    
+        text-transform: none;
+        font-weight: 500;
+    }
+
 
 }
 
