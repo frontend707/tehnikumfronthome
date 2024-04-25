@@ -301,17 +301,44 @@ h1 {
 /* section 7 */
 .diploma_success {
     display: grid;
-    grid-template-columns: 430px 514px 64px;
+    grid-template-columns: 430px repeat(18, 1fr);
     grid-template-rows: 150px 150px;
-    grid-template-areas: "diploma_img diploma_subject diploma_subject"
-                         "diploma_img diploma_p xxx";
-    grid-gap: 0 19px;
 
+
+    /* grid-template-areas: "diploma_img diploma_subject diploma_subject"
+                         "diploma_img diploma_p xxx"; */
+    /* grid-gap: 0 19px; */
+
+}
+
+.diploma_img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.diploma_subject {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 19;
+    margin-left: 19px;
+}
+
+.diploma_p {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 17;
+    margin-left: 19px;
 }
 
 
 
 .diploma_subject h2 {
+    font-size: calc(3.09vw + 9px);
+    /* font-size: 45px; */
     margin-bottom: 0;
 }
 
@@ -321,31 +348,37 @@ h1 {
 }
 
 
-.diploma_subject {
-    grid-area: diploma_subject;
-}
-
-.diploma_img {
-    grid-area: diploma_img;
-}
-
-.diploma_p {
-    grid-area: diploma_p;
-}
-
-
-@media (max-width:890px) {
+/* 1030 */
+@media (max-width:1030px) {
     .diploma_success {
         grid-template-columns: 430px 1fr;
         grid-template-rows: 120px 300px 75px;
+
         grid-template-areas: "diploma_subject diploma_subject"
                              "diploma_img xxxxx"
                              "diploma_p diploma_p";
         grid-gap: 20px 0;
     }
+
+    .diploma_subject {
+        grid-area: diploma_subject;
+        margin-left: 0;
+    }
+    .diploma_img {
+        grid-area: diploma_img;
+    }
+    .diploma_p {
+        grid-area: diploma_p;
+        margin-left: 0;
+    }
+
     
     .diploma_img img{
         width: 100%;
+    }
+
+    .diploma_subject h2 {
+        font-size: calc(2.65vw + 24.05px);
     }
 
 }
