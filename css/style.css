@@ -275,8 +275,6 @@ h1 {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px 120px;
-  
-
 
 }
 
@@ -285,6 +283,7 @@ h1 {
     flex-direction: column;
     width: calc(7.956vw + 298.1px);
     gap: calc(1.105vw + 5.86px) 0;
+    padding-bottom: 20px;
 }
 .section5_flex1 ddede{
     display: flex;
