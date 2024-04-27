@@ -362,6 +362,7 @@ h1 {
 
 
 /* section 7 */
+
 .diploma_success {
     display: grid;
     grid-template-columns: 430px repeat(18, 1fr);
@@ -397,7 +398,6 @@ h1 {
 
 .diploma_subject h2 {
     font-size: calc(3.09vw + 9px);
-    /* font-size: 45px; */
     margin-bottom: 0;
 }
 
@@ -407,7 +407,6 @@ h1 {
 }
 
 
-/* 1030 */
 @media (max-width:1030px) {
     .diploma_success {
         grid-template-columns: 430px 1fr;
@@ -458,7 +457,6 @@ h1 {
 /* section 8 */
 
 .section8 h2 {
-    /* font-size: calc(2.65vw + 24.05px); */
     width: calc(44.31vw + 161.8px);
     margin-bottom: calc(2.21vw + 11.71px);
 }
@@ -515,6 +513,63 @@ h1 {
         width: 100%;
     }
 }
+
+
+/* Otzivi - section 10 */
+
+#reviews_students h2 {
+    margin-top: calc(2.21vw + 11.7px);
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 30px;
+    align-items: stretch;
+  
+
+}
+
+.youtube_text img {
+    margin-bottom: 12px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px 0;
+    padding: 50px 20px 44px;
+    background-color: #F0F7FD;
+    flex-basis: calc(0.773vw + 325.1px);
+    margin-bottom: 20px;
+    border-radius: 12px;
+
+}
+
+
+@media (max-width:1084px) {
+    .reviews {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+
+.account {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
 
 
 /* section 12 */
