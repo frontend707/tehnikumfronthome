@@ -270,25 +270,6 @@ h1 {
 }
 
 
-/* 
-
-
-.border {
-    border: 2px solid black;
-    padding: calc(4.4vw + 23px) calc(4.86vw + 2px) 0;
-    position: relative;
-}
-
-#corner {
-    width: calc(6vw + 2px);
-    position: absolute;
-    top: -2px;
-    right: -2px;
-}
-
-
-*/
-
 
 /* section 4 */
 
@@ -788,4 +769,128 @@ h6 {
     color: #6E3ABA;
     font-size: 6px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* запишись на курс прямо сейчас! - SECTION 14 - PAGE END*/
+
+.page_end {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding-top: calc(4.42vw + 23.42px);
+    padding-bottom: calc(2.21vw + 51.7px);
+    /* padding-left: calc(); */
+    margin-bottom: 0;
+    
+}
+
+.end_page_left {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: calc(4.2vw + 25.2px) ;
+
+}
+
+.end_page_left h2 {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    line-height: 117%;
+    width: calc(10.06vw + 291.2px);
+    margin: 0;
+    
+
+}
+
+.end_page_left p {
+    font-size: calc(1vw + 14.2px);
+    font-weight: 400;
+    line-height: 144%;
+}
+
+.end_page_right {
+    width: calc(16.35vw + 265.7px);
+    height: calc(7.84vw + 499.5px);
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: calc(-1.1vw + 64.1px);
+    padding-left: calc(3.65vw + 14.3px);
+    padding-right: calc(3.65vw + 14.3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.end_page_left_full_text {
+    display: flex;
+    flex-direction: column;
+    gap: calc(0.331vw + 19.7px);
+}
+
+.end_page_left_text {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+.end_page_right h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.end_page_right .start_time {
+    font-size: calc(0.552vw + 13.9px);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.end_page_right button {
+    background-color: #6e3aba;
+    color: white;
+    padding: 20px 0;
+    width: calc(6.74vw + 241.7px);
+    cursor: pointer;
+    font-size: 18px;
+    border: none; 
+    font-weight: 500;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.end_page_right .question {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.end_page_right .call_time {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #222222;
+}
+
+
+@media (max-width:950px) {
+    .page_end {
+        flex-direction: column;
+        align-items: center;
+        gap: 68px;
+    }
+
 }

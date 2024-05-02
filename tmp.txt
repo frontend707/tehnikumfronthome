@@ -1,0 +1,106 @@
+<div class="request_wrapper">
+            <div class="request_form">
+                <form action="">
+                    <h3>оставь заявку</h3>
+                    
+                    <div class="request_form_text">
+                        <input type="text" placeholder="Имя" class="request_imya">
+                        <div class="full_phone_country">
+                            <img src="./images/flag.png" alt="uz_flag">
+                            <p>+998</p>
+                            <input type="tel" placeholder="(__) ___ __ __" class="request_nomber">
+                        </div>
+                    </div>
+                    
+                    <button>Записаться на курс</button>
+                </form>
+           </div>
+</div>
+
+
+.request_wrapper {
+    background-color: #0000005f;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.request_form {
+    width: calc(52.37vw + 129.5px);
+    height: calc(4.09vw + 407.6px);
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request_form h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.request_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+
+
+}
+.request_form_text {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;    
+    align-items: stretch;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.full_phone_country {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+    gap: 9px;
+    
+}
+.request_imya {
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+    font-size: 18px;
+}
+
+.request_nomber {
+    border: none;
+    font-size: 18px;
+    width: 97px;
+
+}
+
+.request_form button {
+    background-color: #6e3aba;
+    color: white;
+    padding: 20px 0;
+    width: calc(6.74vw + 241.7px);
+    cursor: pointer;
+    font-size: 18px;
+    border: none; 
+    font-weight: 500;
+    border-radius: 12px;
+    color: #fff;
+}
+
+
+
